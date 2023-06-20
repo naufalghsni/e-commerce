@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Amaranth&family=Caveat:wght@500&family=Julee&family=Kalam&family=Marck+Script&family=Montserrat+Alternates:wght@500&family=Raleway:wght@500&family=Shantell+Sans:wght@300&family=Tilt+Prism&display=swap');
+ 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Amaranth', sans-serif;
+}
+ 
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: orangered;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ 
+.container {
+   width: 90%;
+    max-width: 440px;
+    color: #fff;
+    text-align: center;
+    padding: 50px 35px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 30px;
+    backdrop-filter: blur(3px);
+}
+ 
+.container .login-text {
+    color: white;
+    font-weight: 500;
+    font-size: 1.1rem;
+    text-align: center;
+    margin-bottom: 20px;
+    display: block;
+    text-transform: capitalize;
+}
+ 
+.container .login-email .input-group {
+    width: 100%;
+    height: 50px;
+    margin-bottom: 25px;
+    color: white;
+}
+ 
+.container .login-email .input-group input {
+    width: 100%;
+    height: 100%;
+    border: 2px solid white;
+    padding: 15px 20px;
+    font-size: 1rem;
+    border-radius: 30px;
+    background: transparent;
+    outline: none;
+    transition: .3s;
+    color: #fff;
+}
+ 
+.container .login-email .input-group input:focus, .container .login-email .input-group input:valid {
+    border-color: orangered;
+}
+ 
+.container .login-email .input-group .btn {
+    display: block;
+    width: 100%;
+    padding: 15px 20px;
+    text-align: center;
+    border: none;
+    background: white;
+    outline: none;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    color: orangered;
+    cursor: pointer;
+    transition: .3s;
+}
+ 
+.container .login-email .input-group .btn:hover {
+    background: orangered;
+    color: white;
+}
+ 
+.login-register-text {
+    color: white;
+    font-weight: 600;
+}
+ 
+.login-register-text a {
+    text-decoration: none;
+    color: white;
+}
+ 
+.container-logout {
+    width: 500px;
+    min-height: 200px;
+    color: white;
+    text-align: center;
+    padding: 40px 30px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 0px;
+    backdrop-filter: blur(3px);
+}
+ 
+.container-logout .login-email .input-group .btn {
+    display: block;
+    width: 100%;
+    padding: 15px 20px;
+    text-align: center;
+    border: none;
+    background: white;
+    outline: none;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    color: orangered;
+    cursor: pointer;
+    transition: .3s;
+    margin-top: 20px;
+}
+ 
+.container-logout .login-email .input-group .btn:hover {
+    background: orangered;
+    color: white;
+    
+}
+ 
+@media (max-width: 430px) {
+    .container {
+        width: 300px;
+    }
+}
+span{
+    color: red;
+}
